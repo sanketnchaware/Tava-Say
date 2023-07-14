@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Navbar from '../Navbar/Navbar'
 import CustomButton from '../Buttons/CustomButton'
 import tava from "../../assets/images/homepage/tava.png"

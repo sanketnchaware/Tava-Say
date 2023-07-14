@@ -1,4 +1,4 @@
-import React from 'react'
+
 import CustomButton from '../Buttons/CustomButton'
 import hero from "../../assets/images/homepage/hero.svg"
 const HeroSection = () => {

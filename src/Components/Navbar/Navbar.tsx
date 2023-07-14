@@ -1,5 +1,4 @@
-import React from 'react'
-import CustomButton from '../Buttons/CustomButton'
+
 import fb from "../../assets/icons/homepage/fb.svg"
 import insta from "../../assets/icons/homepage/insta.svg"
 import twitter from "../../assets/icons/homepage/twitter.svg"
