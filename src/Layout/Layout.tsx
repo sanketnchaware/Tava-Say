@@ -6,7 +6,7 @@ const Layout = () => {
     return (
         <div>
             <Header component={<HeroSection />} />
-            <section className="bg-red-800 h-screen"></section>
+            <section className=" h-screen"></section>
         </div>
     )
 }
