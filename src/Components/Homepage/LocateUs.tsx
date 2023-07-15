@@ -35,7 +35,7 @@ const LocateUs = () => {
 
             </div>
             <div className='flex justify-between items-center gap-20'>
-                <img src="https://10619-2.s.cdn12.com/rests/original/102_514679913.jpg" alt="locate_us"  className='w-1/2 rounded-xl'/>
+                <img src="https://10619-2.s.cdn12.com/rests/original/102_514679913.jpg" alt="locate_us" className='w-1/2 rounded-xl' />
                 <div className='flex flex-col gap-y-2'>
                     <div>
                         <h5>The Story</h5>
