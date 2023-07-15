@@ -11,6 +11,7 @@ module.exports = {
         FloralWhite: "#FFF8F5",
         BlackCoral: "#5C6168",
         Gainsboro: "#DEDEDE",
+        
       },
     },
   },

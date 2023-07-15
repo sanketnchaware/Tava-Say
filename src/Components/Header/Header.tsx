@@ -6,7 +6,7 @@ import cart_icon from "../../assets/icons/homepage/cart_icon.svg"
 const Header = ({ component }: any) => {
     return (
         <div className='bg-Gunmetal w-full h-screen  '>
-            <div className=' '>
+            <div className='flex flex-col gap-y-10 '>
 
                 <div className='py-2 px-20 flex justify-around items-center'>
                     <CustomButton variant="outlined" Label="Call - 987 654 321 " />

@@ -1,8 +1,11 @@
 import React from 'react'
+import LocateUs from '../Components/Homepage/LocateUs'
 
 const Home = () => {
     return (
-        <div>Home</div>
+        <div>
+            <LocateUs />
+        </div>
     )
 }
 
