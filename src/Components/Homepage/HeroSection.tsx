@@ -5,9 +5,11 @@ const HeroSection = () => {
     return (
         <div className="flex gap-10 justify-center  items-center mx-44">
             <div className='py-9'>
-                <h3 className="text-FloralWhite">Welcome to <span className='text-[6rem]'>T</span>ava<span className='text-[96px]'>S</span>ay ! </h3>
+                <h3 className="text-FloralWhite">Welcome to 
                 <br />
-                <p  className="text-xl text-FloralWhite"><span className='text-[25px]'>"S</span>tep into a realm of North Indian culinary bliss, where centuries-old traditions blend harmoniously with modern flavors, tantalizing your taste buds with every savory morsel. "</p>
+                Tava Say ! </h3>
+                <br />
+                <p  className="text-xl text-FloralWhite">" Step into a realm of North Indian culinary bliss, where centuries-old traditions blend harmoniously with modern flavors, tantalizing your taste buds with every savory morsel. "</p>
 
                 <br />      <CustomButton variant="outlined" Label="View Menu" />
             </div>
