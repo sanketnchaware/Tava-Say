@@ -1,6 +1,5 @@
 
 import CustomButton from '../Buttons/CustomButton'
-import hero from "../../assets/images/homepage/hero.svg"
 const HeroSection = () => {
     return (
         <div className="flex gap-10 justify-center  items-center mx-44">
