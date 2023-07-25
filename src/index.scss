@@ -9,7 +9,7 @@ h2 {
   @apply text-[60px] font-bold;
 }
 h3 {
-  @apply text-[55px] font-bold text-Gunmetal;
+  @apply text-4xl sm:text-[55px] font-bold text-Gunmetal;
 }
 h4 {
   @apply text-[40px] font-bold text-Gunmetal;
@@ -22,7 +22,7 @@ h6 {
 }
 
 p {
-  @apply text-base font-normal;
+  @apply  text-sm sm:text-base font-normal;
 }
 
 body {
