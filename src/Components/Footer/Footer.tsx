@@ -28,7 +28,7 @@ const Footer = () => {
                 return <img src={icon} alt="social media icons" />;
               })}
             </div>
-            <p className="sm:block hidden border-y debug sm:m-0 m-auto border-Fawn w-fit">
+            <p className="sm:block hidden border-y  sm:m-0 m-auto border-Fawn w-fit">
               CONTACT
             </p>
             <p className="sm:block hidden text-center">
@@ -76,10 +76,10 @@ const Footer = () => {
           </div>
         </div>
         <div className="py-6 px-4 border-t border-slate-600 flex-col sm:flex-row  flex justify-between ">
-          <p className="text-xs text-center sm:text-left text-Gainsboro">
+          <p className="sm:text-base text-xs text-center sm:text-left text-Gainsboro">
             © Copyright - Tava Say 2023{" "}
           </p>
-          <p className="text-center text-xs sm:text-left text-Gainsboro ">
+          <p className="text-center sm:text-base text-xs sm:text-left text-Gainsboro ">
             {" "}
             Made with ❤️ by Sanket Chaware
           </p>{" "}
