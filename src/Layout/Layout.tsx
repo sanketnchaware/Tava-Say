@@ -4,8 +4,6 @@ import { Routes, Route } from "react-router-dom";
 import Home from "../Pages/Home";
 import Footer from "../Components/Footer/Footer";
 import { useState } from "react";
-import { Drawer } from "rsuite";
-import MobileMenu from "../Components/MobileMenu";
 
 const Layout = () => {
   const [isSidebarOpen, setMenuOpen] = useState(false);
