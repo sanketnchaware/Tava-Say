@@ -46,7 +46,7 @@ const Layout = () => {
 
       <div className="flex flex-col flex-1 h-full overflow-hidden">
         <header className="sm:hidden bg-Gunmetal flex-shrink-0">
-          <div className="flex items-center justify-between p-2 border-b border-Fawn">
+          <div className="flex items-center justify-between p-3  border-b border-Fawn">
             <div className="flex justify-between">
               <div className=" cursor-pointer ml-3 ">
                 <img
@@ -57,7 +57,7 @@ const Layout = () => {
                 />
               </div>
             </div>
-            <p className="text-Fawn">TavaSay</p>
+            <p className="text-Fawn text-2xl ">TavaSay</p>
           </div>
         </header>
         <main className="flex-1 max-h-full  overflow-hidden overflow-y-scroll text-SpaceCadet  bg-CalmWaters">
