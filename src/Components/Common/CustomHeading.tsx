@@ -1,8 +1,12 @@
 import React from "react";
 
-const CustomHeading = ({ text }: any) => {
+const CustomHeading = ({ text, color }: any) => {
   return (
-    <div className="border-y-2 text-white  sm:m-0 m-auto border-Fawn w-fit">{text}</div>
+    <div
+      className={`text-${color} border-y-2   sm:m-0 m-auto border-Fawn w-fit`}
+    >
+      {text}
+    </div>
   );
 };
 

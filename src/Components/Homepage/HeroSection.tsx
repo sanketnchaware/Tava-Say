@@ -3,7 +3,7 @@ import hero from "../../assets/images/homepage/hero.svg";
 const HeroSection = () => {
   return (
     <div className="  bg-Gunmetal  flex gap-10 justify-center  items-center w-full sm:w-9/12 m-auto">
-      <div className="py-9 sm:px-0 px-4">
+      <div className="py-40 sm:px-0 px-4">
         <h3 className="text-FloralWhite ">
           Welcome to
           <br className="sm:hidden " />
@@ -15,7 +15,8 @@ const HeroSection = () => {
           centuries-old traditions blend harmoniously with modern flavors,
           tantalizing your taste buds with every savory morsel. "
         </p>
-        <br /> <CustomButton variant="outlined" Label="View Menu" />
+        <br />
+        <CustomButton variant="outlined" Label="View Menu" />
       </div>
       <div className="relative w-8/12 sm:block hidden">
         <img

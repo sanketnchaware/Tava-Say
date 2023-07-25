@@ -3,7 +3,7 @@ import CustomButton from "../Buttons/CustomButton";
 
 const MainMenu = () => {
   return (
-    <div className="w-full sm:w-9/12 m-auto flex sm:flex-row flex-col justify-between  my-10 sm:my-20 ">
+    <div className="w-full sm:w-9/12 m-auto flex sm:flex-row flex-col justify-between gap-y-20  my-10 sm:my-20 ">
       <div className=" w-full sm:w-4/12 flex flex-col gap-y-4">
         <h6>Try Our Special Offers</h6>
         <p>

@@ -1,14 +1,17 @@
 import React from "react";
 import LocateUs from "../Components/Homepage/LocateUs";
 import MainMenu from "../Components/Homepage/MainMenu";
-import CustomerReviews from "../Components/Homepage/CustomerReviews";
+import Services from "../Components/Homepage/Services";
+import Offers from "../Components/Homepage/Offers";
 
 const Home = () => {
   return (
-    <div className="p-4 sm:p-0">
+    <div className="p-2 sm:p-0">
       <LocateUs />
       <MainMenu />
-      <CustomerReviews />
+      {/* <Testimonial /> */}
+      <Offers />
+      <Services />
     </div>
   );
 };

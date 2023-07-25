@@ -1,7 +1,7 @@
 import React from "react";
 import CustomHeading from "../Common/CustomHeading";
 import open247 from "../../assets/icons/homepage/open247.svg";
-const CustomerReviews = () => {
+const Services = () => {
   return (
     <div className="bg-Gunmetal w-full py-20">
       <div className=" gap-8 flex-col sm:flex-row flex items-center justify-center m-auto w-full sm:w-8/12">
@@ -32,4 +32,4 @@ const CustomerReviews = () => {
   );
 };
 
-export default CustomerReviews;
+export default Services;

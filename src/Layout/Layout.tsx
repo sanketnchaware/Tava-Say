@@ -1,9 +1,16 @@
 import Header from "../Components/Header/Header";
 import HeroSection from "../Components/Homepage/HeroSection";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Link } from "react-router-dom";
 import Home from "../Pages/Home";
 import Footer from "../Components/Footer/Footer";
 import { useState } from "react";
+import hamburger from "../assets/icons/homepage/hamburger.svg";
+import About from "../Pages/About";
+import Menu from "../Pages/Menu";
+import Gallery from "../Pages/Gallery";
+import Contact from "../Pages/Contact";
+import Blog from "../Pages/Blog";
+import Reservation from "../Pages/Reservation";
 
 const Layout = () => {
   const [isSidebarOpen, setMenuOpen] = useState(false);
@@ -17,30 +24,60 @@ const Layout = () => {
        }`}
       >
         <div
-          className={`flex items-center justify-end flex-shrink-0 p-2 ${
+          className={`flex items-center justify-between flex-shrink-0 p-2 ${
             !isSidebarOpen ? "lg:justify-center" : ""
           }`}
         >
+          <div></div>
+          <p className="text-3xl  text-Gainsboro"> Menu</p>
           <button
             type="button"
             className=" p-2 rounded-md lg:hidden"
             onClick={() => setMenuOpen(!isSidebarOpen)}
           >
             <svg
-              className="w-6 h-6 text-SpaceCadet"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
+              width="24"
+              height="24"
               viewBox="0 0 24 24"
-              stroke="currentColor"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M6 18L18 6M6 6l12 12"
+                d="M18 6L6 18"
+                stroke="#E1B168"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M6 6L18 18"
+                stroke="#E1B168"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
               />
             </svg>
           </button>
+        </div>
+        <div className="gap-y-8 h-full text-center justify-center items-center   flex flex-col">
+          {[
+            { page: "Home", link: "/" },
+            { page: "About", link: "/about" },
+            { page: "Menu", link: "/menu" },
+            { page: "Reservation", link: "/reservation" },
+            { page: "Gallery", link: "/gallery" },
+            { page: "Blog", link: "/blog" },
+            { page: "Contact", link: "/contact" },
+          ].map((item) => {
+            return (
+              <Link
+                to={item.link}
+                className=" text-3xl hover:text-Gainsboro  transition-all ease-linear duration-25 text-Fawn"
+              >
+                {item.page}
+              </Link>
+            );
+          })}
         </div>
       </aside>
 
@@ -50,9 +87,9 @@ const Layout = () => {
             <div className="flex justify-between">
               <div className=" cursor-pointer ml-3 ">
                 <img
-                  className="w-5"
+                  className="w-8"
                   onClick={() => setMenuOpen(!isSidebarOpen)}
-                  src="https://icones.pro/wp-content/uploads/2021/06/icone-fleche-droite-jaune.png"
+                  src={hamburger}
                   alt="isSidebaricon"
                 />
               </div>
@@ -69,6 +106,12 @@ const Layout = () => {
             </div>
             <Routes>
               <Route path="/" element={<Home />} />{" "}
+              <Route path="/about" element={<About />} />{" "}
+              <Route path="/menu" element={<Menu />} />{" "}
+              <Route path="/gallery" element={<Gallery />} />{" "}
+              <Route path="/contact" element={<Contact />} />{" "}
+              <Route path="/blog" element={<Blog />} />{" "}
+              <Route path="/reservation" element={<Reservation />} />{" "}
             </Routes>
             <Footer />{" "}
           </div>
