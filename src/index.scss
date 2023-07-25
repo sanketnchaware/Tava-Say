@@ -9,16 +9,16 @@ h2 {
   @apply text-[60px] font-bold;
 }
 h3 {
-  @apply text-4xl sm:text-[55px] font-bold text-Gunmetal;
+  @apply text-4xl sm:text-[55px] font-bold ;
 }
 h4 {
-  @apply text-[40px] font-bold text-Gunmetal;
+  @apply text-[40px] font-bold ;
 }
 h5 {
-  @apply text-[30px] font-bold text-Gunmetal;
+  @apply text-xl sm:text-[30px] font-bold ;
 }
 h6 {
-  @apply text-[25px] font-bold text-Gunmetal;
+  @apply text-lg sm:text-[25px] font-bold ;
 }
 
 p {

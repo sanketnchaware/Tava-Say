@@ -38,16 +38,17 @@ const Footer = () => {
             <div className="text-right sm:block hidden">Working Hours</div>
             <div>
               <p className="sm:text-left text-center">
-                5 Rue Dalou, 75015 Paris
+                G21, The Brigade Arcade, Metropolis, Mahadevapura, Whitefield,
+                Bangalore
               </p>
               <p className="sm:text-left text-center">
-                <span className="theme-text">Call -</span> +33 156 78 89 56
+                <span className="theme-text">Call -</span> +919611959312
               </p>
               <p
                 className="theme-text sm:text-left text-center
 "
               >
-                benoit@mail.com
+                tavasay@gmail.com
               </p>
             </div>
             <div className="flex ">
@@ -62,15 +63,13 @@ const Footer = () => {
             </div>
             <div>
               <p className=" text-center sm:text-right">
-                <span className="theme-text">Mon – Fri: </span>7.00am – 6.00pm
+                <span className="theme-text">Mon – Sat: </span>11.45 am – 10.30
+                pm
               </p>
-              <p className=" text-center sm:text-right">
-                <span className="theme-text">Sat: </span>
-                7.00am – 6.00pm
-              </p>
+
               <p className=" text-center sm:text-right">
                 <span className="theme-text">Sun: </span>
-                8.00am – 6.00pm
+                Closed
               </p>
             </div>
           </div>

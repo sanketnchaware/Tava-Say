@@ -4,10 +4,10 @@ const HeroSection = () => {
   return (
     <div className="  bg-Gunmetal  flex gap-10 justify-center  items-center w-full sm:w-9/12 m-auto">
       <div className="py-9 sm:px-0 px-4">
-        <h3 className="text-FloralWhite">
+        <h3 className="text-FloralWhite ">
           Welcome to
-          <br />
-          <span className="text-Fawn">Tava Say ! </span>
+          <br className="sm:hidden " />
+          <span className=" text-Fawn "> Tava Say ! </span>
         </h3>
         <br />
         <p className="text-base sm:text-xl text-FloralWhite">

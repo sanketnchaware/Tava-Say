@@ -5,15 +5,15 @@ import reserve from "../../assets/icons/homepage/reserve.svg";
 import timing from "../../assets/icons/homepage/timing.svg";
 const LocateUs = () => {
   return (
-    <div className="bg-FloralWhite gap-8 sm:px-44 py-10 sm:py-20 flex flex-col justify-between items-center   ">
-      <div className="grid   sm:grid-cols-3 grid-cols-1 gap-y-4 sm:gap-x-4 justify-between items-center">
+    <div className="bg-FloralWhite gap-y-48 sm:px-44 py-10 sm:py-20 flex flex-col justify-between items-center  ">
+      <div className="grid   sm:grid-cols-3 grid-cols-1 gap-y-4  sm:gap-x-4 justify-between items-center">
         {React.Children.toArray(
           [
             {
               icon: address,
               title: "Locate Us   ",
               content:
-                "Tava Say, Brigade Metropolis, The Arcade, Whitefield Main Road, Garudcharpalya, Bangalore",
+                "G21, The Brigade Arcade, Metropolis, Mahadevapura, Whitefield, Bangalore",
             },
             {
               icon: timing,
@@ -31,7 +31,7 @@ const LocateUs = () => {
                 <div className="w-[20%] flex items-center justify-center">
                   <img className="w-full" src={item?.icon} alt="" />
                 </div>
-                <div className="w-[70%]">
+                <div className="w-[70%] m-auto">
                   <h6>{item?.title}</h6>
                   <p> {item?.content}</p>
                 </div>
@@ -71,7 +71,7 @@ const LocateUs = () => {
           </div>
           <div>
             <h5>Contact Us</h5>
-            <p>8378950255</p>
+            <p>+91 9611959312</p>
           </div>
         </div>
       </div>
