@@ -13,6 +13,7 @@ module.exports = {
         Gainsboro: "#DEDEDE",
         Onyx: "#323841",
         
+        
       },
     },
   },

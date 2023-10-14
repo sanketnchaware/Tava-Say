@@ -4,15 +4,57 @@ import fb from "../../assets/icons/homepage/fb.svg";
 import insta from "../../assets/icons/homepage/insta.svg";
 import twitter from "../../assets/icons/homepage/twitter.svg";
 import pintrest from "../../assets/icons/homepage/pintrest.svg";
+import CustomHeading from "../Common/CustomHeading";
 
 const Footer = () => {
   return (
     <div className="text-FloralWhite">
-      <img
-        className="w-full"
-        src="https://10619-2.s.cdn12.com/rests/original/102_514679913.jpg"
-        alt=""
-      />
+      <div className="relative">
+        <div className="w-8/12 m-auto p-16 bg-Gunmetal absolute left-0 right-0 top-0 bottom-0 h-1/2 ">
+          <div className="flex  flex-col gap-y-4 items-center">
+            {" "}
+            <CustomHeading color="white" text="RESERVATION" />
+            <h6 className="text-center">Book you table now</h6>
+            <div className="grid  w-full grid-cols-2 justify-between gap-4">
+              <input
+                type="text"
+                placeholder="Name"
+                className="w-full bg-transparent px-4 py-4 border placeholder:text-white  border-BlackCoral "
+              />
+              <input
+                type="text"
+                placeholder="Email"
+                className="w-full border-BlackCoral bg-transparent px-4 py-4 border placeholder:text-white "
+              />
+            </div>
+            <div className="gap-4 grid grid-cols-3">
+              <input
+                placeholder="Person"
+                type="text "
+                className="w-full bg-transparent px-4 py-4 border placeholder:text-white  border-BlackCoral"
+              />
+              <input
+                placeholder="Timing"
+                type="text "
+                className="w-full bg-transparent px-4 py-4 border placeholder:text-white  border-BlackCoral"
+              />
+              <input
+                placeholder="Date"
+                type="text "
+                className="w-full bg-transparent px-4 py-4 border placeholder:text-white  border-BlackCoral"
+              />
+            </div>
+            <button className="bg-white  text-Gunmetal px-6 py-4">
+              Book a table
+            </button>
+          </div>
+        </div>
+        <img
+          className="w-full"
+          src="https://10619-2.s.cdn12.com/rests/original/102_514679913.jpg"
+          alt=""
+        />
+      </div>
 
       <div className=" m-auto bg-Gunmetal">
         <div className="w-9/12 m-auto py-10">
@@ -20,7 +62,11 @@ const Footer = () => {
             <p className="sm:block hidden">Instagram Feed</p>
             <div>
               {" "}
-              <img src={tava} className="w-56 mx-auto" alt="brand_logo" />
+              <img
+                src="/brand_logo.png"
+                className="w-56 mx-auto"
+                alt="brand_logo"
+              />
             </div>
 
             <div className="flex  justify-center sm:justify-end gap-4  items-center">

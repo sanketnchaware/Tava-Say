@@ -18,7 +18,7 @@ const Layout = () => {
     <div className="flex h-screen overflow-y-hidden  ">
       <aside
         className={`backdrop-blur-3xl sm:hidden fixed inset-y-0 z-10 flex flex-col flex-shrink-0 w-64  
-       max-h-screen overflow-hidden transition-all transform gradiant-aside border-r-darkGray
+       max-h-screen overflow-hidden transition-all transform  border-r-darkGray
        shadow-lg lg:z-auto lg:static lg:shadow-none ${
          !isSidebarOpen ? "-translate-x-full lg:translate-x-0 lg:w-20" : ""
        }`}

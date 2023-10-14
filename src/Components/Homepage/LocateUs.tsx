@@ -5,7 +5,7 @@ import reserve from "../../assets/icons/homepage/reserve.svg";
 import timing from "../../assets/icons/homepage/timing.svg";
 const LocateUs = () => {
   return (
-    <div className="bg-FloralWhite gap-y-20 sm:gap-y-48 sm:px-44 py-10 sm:py-20 flex flex-col justify-between items-center  ">
+    <div className="bg-FloralWhite h-screen   justify-center  gap-y-20 sm:gap-y-24 sm:px-44 py-10 sm:py-20 flex flex-col  items-center  ">
       <div className="grid   sm:grid-cols-3 grid-cols-1 gap-y-4  sm:gap-x-4 justify-between items-center">
         {React.Children.toArray(
           [
@@ -46,7 +46,7 @@ const LocateUs = () => {
           alt="locate_us"
           className="w-full sm:w-1/2 rounded-none sm:rounded-xl"
         />
-        <div className="flex flex-col gap-y-8 sm:gap-y-2">
+        <div className="flex flex-col gap-y-8 sm:gap-y-8">
           <div>
             <h5>The Story</h5>
             <p>
@@ -55,7 +55,7 @@ const LocateUs = () => {
               makinlook like readable English. Many desktop publishing packages.
             </p>
           </div>
-          <div className="flex sm:gap-0  gap-4">
+          <div className="flex sm:gap-8  gap-4">
             <div>
               <h5>2021</h5>
               <p>

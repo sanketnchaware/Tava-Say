@@ -1,5 +1,6 @@
 import React from "react";
 import CustomButton from "../Buttons/CustomButton";
+import { Link } from "react-router-dom";
 
 const MainMenu = () => {
   return (
@@ -16,7 +17,9 @@ const MainMenu = () => {
           src="https://images.unsplash.com/photo-1511690656952-34342bb7c2f2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Zm9vZCUyMHZlcnRpY2VsfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
           alt=""
         />
-        <CustomButton variant="yellowoutlined" Label="View Menu" />
+        <Link to="/menu">
+          <CustomButton variant="yellowoutlined" Label="View Menu" />
+        </Link>
       </div>
       <div className="w-full sm:w-7/12 flex flex-col gap-y-10">
         {/* Starters */}
