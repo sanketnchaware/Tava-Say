@@ -5,7 +5,7 @@ import reserve from "../../assets/icons/homepage/reserve.svg";
 import timing from "../../assets/icons/homepage/timing.svg";
 const LocateUs = () => {
   return (
-    <div className="bg-FloralWhite h-screen   justify-center  gap-y-20 sm:gap-y-24 sm:px-44 py-10 sm:py-20 flex flex-col  items-center  ">
+    <div className="bg-FloralWhite sm:h-screen   justify-center  gap-y-20 sm:gap-y-24 sm:px-44 py-10 sm:py-20 flex flex-col  items-center  ">
       <div className="grid   sm:grid-cols-3 grid-cols-1 gap-y-4  sm:gap-x-4 justify-between items-center">
         {React.Children.toArray(
           [
