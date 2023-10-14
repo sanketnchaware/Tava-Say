@@ -1,4 +1,3 @@
-import tava from "../../assets/images/homepage/tava.png";
 
 import fb from "../../assets/icons/homepage/fb.svg";
 import insta from "../../assets/icons/homepage/insta.svg";
