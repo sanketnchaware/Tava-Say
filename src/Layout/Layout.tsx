@@ -1,5 +1,5 @@
 import Header from "../Components/Header/Header";
-import HeroSection from "../Components/Homepage/HeroSection";
+// import HeroSection from "../Components/Homepage/HeroSection";
 import { Routes, Route, Link } from "react-router-dom";
 import Home from "../Pages/Home";
 import Footer from "../Components/Footer/Footer";
