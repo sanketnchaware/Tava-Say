@@ -1,15 +1,35 @@
-
 import fb from "../../assets/icons/homepage/fb.svg";
 import insta from "../../assets/icons/homepage/insta.svg";
 import twitter from "../../assets/icons/homepage/twitter.svg";
 import pintrest from "../../assets/icons/homepage/pintrest.svg";
 import CustomHeading from "../Common/CustomHeading";
+import CustomButton from "../Buttons/CustomButton";
+import { Link } from "react-router-dom";
+import BookTable from "../Modals/BookTable";
+import { useState } from "react";
 
 const Footer = () => {
+  const [isTableOpen, setTableModal] = useState(false);
+
+  const ToggleTableModal = () => {
+    setTableModal(!isTableOpen);
+  };
+
   return (
     <div className="text-FloralWhite">
       <div className="relative">
-        <div className="w-8/12 m-auto p-16 bg-Gunmetal absolute left-0 right-0 top-0 bottom-0 h-1/2 ">
+        {/* book your table modal */}
+
+        <button
+          onClick={ToggleTableModal}
+          className="bg-Gunmetal absolute top-0 bottom-0 m-auto h-10 px-4 left-0 right-0  w-5/12 rounded-xl text-center flex justify-center items-center"
+        >
+          Book a Table
+        </button>
+
+        <BookTable isTableOpen={isTableOpen} ToggleTable={ToggleTableModal} />
+
+        <div className="sm:block hidden w-8/12 m-auto p-16 bg-Gunmetal absolute left-0 right-0 top-0 bottom-0 h-1/2 ">
           <div className="flex  flex-col gap-y-4 items-center">
             {" "}
             <CustomHeading color="white" text="RESERVATION" />

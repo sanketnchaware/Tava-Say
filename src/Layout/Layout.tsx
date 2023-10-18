@@ -100,7 +100,7 @@ const Layout = () => {
         <main className="flex-1 max-h-full  overflow-hidden overflow-y-scroll text-SpaceCadet  bg-CalmWaters">
           {" "}
           <div className="relative">
-            <Header component={<HeroSection />} />
+            <Header />
             <div className="block sm:hidden ">
               <HeroSection />
             </div>

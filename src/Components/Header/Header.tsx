@@ -1,7 +1,7 @@
 import Navbar from "../Navbar/Navbar";
 import CustomButton from "../Buttons/CustomButton";
 import cart_icon from "../../assets/icons/homepage/cart_icon.svg";
-const Header = ({ component }: any) => {
+const Header = () => {
   return (
     <div className=" sm:block  hidden bg-Gunmetal  w-full   ">
       <div className="flex flex-col  gap-y-4 ">
@@ -15,9 +15,6 @@ const Header = ({ component }: any) => {
         </div>
 
         <Navbar />
-        <br />
-
-        {component}
       </div>
     </div>
   );

@@ -9,20 +9,20 @@ const Navbar = () => {
     <div className="flex items-center justify-between border-y px-44 py-4 border-BlackCoral ">
       <div className="flex justify-between gap-x-16  items-center">
         {[
-          "Home",
-          "About",
-          "Menu",
-          "Reservation",
-          "Gallery",
-          "Blog",
-          "Contact",
-        ].map((link) => {
+          { page: "Home", url: "/" },
+          { page: "About", url: "/about" },
+          { page: "Menu", url: "/menu" },
+          { page: "Reservation", url: "/reservation" },
+          { page: "Gallery", url: "/gallery" },
+          { page: "Blog", url: "/blog" },
+          { page: "Contact", url: "/contact" },
+        ].map((item) => {
           return (
             <Link
-              to="/"
+              to={item.url}
               className="hover:text-Fawn transition-all ease-linear duration-25 text-Gainsboro"
             >
-              {link}
+              {item.page}
             </Link>
           );
         })}
