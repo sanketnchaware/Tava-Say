@@ -9,14 +9,16 @@ import HeroSection from "../Components/Homepage/HeroSection";
 
 const Home = () => {
   return (
-    <div className="p-2 sm:p-0">
+    <div className="">
       <HeroSection />
-      <LocateUs />
-      <MainMenu />
-      <Testimonial />
-      <Offers />
-      <Services />
-      <Blog />
+      <div className="sm:p-0 p-2">
+        <LocateUs />
+        <MainMenu />
+        <Testimonial />
+        <Offers />
+        <Services />
+        <Blog />
+      </div>
     </div>
   );
 };

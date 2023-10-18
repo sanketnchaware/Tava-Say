@@ -101,9 +101,9 @@ const Layout = () => {
           {" "}
           <div className="relative">
             <Header />
-            <div className="block sm:hidden ">
+            {/* <div className="block sm:hidden ">
               <HeroSection />
-            </div>
+            </div> */}
             <Routes>
               <Route path="/" element={<Home />} />{" "}
               <Route path="/about" element={<About />} />{" "}
