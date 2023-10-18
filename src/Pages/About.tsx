@@ -1,4 +1,4 @@
-import React from "react";
+
 import CustomHeading from "../Components/Common/CustomHeading";
 
 const About = () => {

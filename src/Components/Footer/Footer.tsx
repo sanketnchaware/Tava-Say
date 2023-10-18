@@ -3,8 +3,6 @@ import insta from "../../assets/icons/homepage/insta.svg";
 import twitter from "../../assets/icons/homepage/twitter.svg";
 import pintrest from "../../assets/icons/homepage/pintrest.svg";
 import CustomHeading from "../Common/CustomHeading";
-import CustomButton from "../Buttons/CustomButton";
-import { Link } from "react-router-dom";
 import BookTable from "../Modals/BookTable";
 import { useState } from "react";
 
